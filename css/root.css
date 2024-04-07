@@ -1,0 +1,15 @@
+:root {
+  /* Fonts */
+  --st-font-regular: "Inter-Regular";
+  --st-font-medium: "Inter-Medium";
+  --st-font-semibold: "Inter-SemiBold";
+  --st-font-bold: "Inter-Bold";
+
+  /* Colors */
+  --st-bg-body: #111827;
+  --st-bg-gray: #374151;
+  --st-bg-black: #1f2937;
+  --st-font-gray: #d1d5db;
+  --st-font-light: #F9FAFB;
+
+}

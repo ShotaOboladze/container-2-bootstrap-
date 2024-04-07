@@ -1,0 +1,74 @@
+@import url(./fonts.css);
+@import url(./root.css);
+@import url(./support.css);
+@import url(./bootstrap@5.3.3.css);
+
+body {
+  background: var(--st-bg-body);
+}
+* {
+  font-family: var(--st-font-regular);
+}
+/* Cards-Container */
+.btn {
+  width: 125px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  background: var(--st-bg-gray);
+  font: var(--st-font-medium);
+  color: var(--st-font-gray);
+  font-size: 14px;
+}
+.container .btn {
+  width: 105px;
+}
+.row > p {
+  font-size: 20px;
+}
+p,
+label,
+a {
+  color: var(--st-font-gray);
+  font-size: 16px;
+  line-height: 24px;
+}
+.box-card {
+  height: 356px;
+  background: var(--st-bg-black);
+  border-radius: 12px;
+}
+h2,
+h3 {
+  font-family: var(--st-font-semibold);
+  color: var(--st-font-light);
+  font-size: 20px;
+}
+
+/* Profile-Container */
+.image-card {
+  width: 400px;
+  height: 480px;
+  border: 8px solid var(--st-bg-body);
+  background: var(--st-bg-gray);
+}
+.image-card img {
+  transform: translate(10%, -10%);
+}
+.content {
+  margin-top: -40px;
+}
+label {
+  width: 260px;
+}
+
+@media screen and (max-width: 767px) {
+  .row {
+    justify-content: center !important;
+    gap: 3rem !important;
+  }
+  .image-card img {
+    width: 400px !important;
+    transform: translate(-5%, -5%) !important;
+  }
+}
